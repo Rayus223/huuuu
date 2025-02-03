@@ -849,7 +849,7 @@ body, html {
   font-size: 10rem;
   color: #1F2937;
   margin-bottom: 6rem;  /* Reduced from 10rem to 6rem */
-  font-weight: 500;
+  font-weight: 700 !important;
   font-family: "Macondo", serif;
 
   opacity: 0;  /* Start hidden */
@@ -871,7 +871,7 @@ body, html {
     font-size: 3.2rem;
     color: #1F2937;
     margin-bottom: 4rem;
-    font-weight: 600;
+    font-weight: 700 !important;
   }
 
   .role-cards-container {
@@ -888,8 +888,8 @@ body, html {
     border-radius: 2rem;
     text-align: center;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-    width: 220px;  /* Reduced width */
-    min-height: 60px;  /* Increased height */
+    width: 370px;  /* Reduced width */
+    min-height: 100px;  /* Increased height */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -906,14 +906,15 @@ body, html {
   }
 
   .role-card h3 {
+    font-family: "Roboto", serif;
     font-size: 5rem !important;  /* Added !important */
     margin-bottom: 2.5rem;
-    font-weight: 500;
+    font-weight: 600 !important;
     color: #333;
   }
 
   .role-card p {
-    font-size: 2rem !important;  /* Added !important */
+    font-size: 3rem !important;  /* Added !important */
     line-height: 1.6;
     margin-bottom: 3.5rem;
     padding: 0 1.5rem;
@@ -925,7 +926,7 @@ body, html {
     padding: 1.6rem;
     border-radius: 50px;
     margin: 0 auto;
-    font-size: 2rem !important;  /* Added !important */
+    font-size: 3rem !important;  /* Added !important */
     font-weight: 500;
   }
 }
